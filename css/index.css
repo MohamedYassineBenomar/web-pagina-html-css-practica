@@ -29,10 +29,10 @@ body {
   
   .nav-main{
         display: flex;
-        background-color: azure;
+        background-color: rgb(255, 219, 164);
         justify-content: flex-end;
         padding: 30px;
-        gap: 10px;
+        gap: 50px;
         position: sticky;
         top: 0px;
   }
@@ -51,7 +51,52 @@ body {
    */
   /* Footer */
   footer {
-    background-color: rgb(145, 255, 0);
+    background-color: rgb(203, 24, 24);
+    color: white;
     padding: 20px;
   }
   
+
+.section-main {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+
+}
+
+h2 {
+
+  text-align: center;
+}
+.article-generic {
+ 
+
+}
+.nav-main a {
+  color: inherit; /* Inherit text color from parent */
+  text-decoration: none; /* Remove underline */
+  font-size: larger;
+  color: black;
+}
+
+.carta {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.carta-reverse {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.carta-txt {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.carta-img {
+  height: 300px;
+  width: 600px;
+
+}
