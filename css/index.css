@@ -31,7 +31,7 @@ body {
         display: flex;
         background-color: rgb(255, 219, 164);
         justify-content: flex-end;
-        padding: 30px;
+        padding: 30px 30px 30px 30px;
         gap: 50px;
         position: sticky;
         top: 0px;
@@ -60,14 +60,16 @@ body {
 .section-main {
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding: 10px 100px 100px 100px;
+  
 
 }
 
 h2 {
 
-  text-align: center;
+  padding-left: 40px;
 }
+
 .article-generic {
  
 
@@ -86,17 +88,24 @@ h2 {
 }
 .carta-reverse {
   display: flex;
+  flex-direction: row-reverse;
   gap: 20px;
   padding: 20px;
 }
-.carta-txt {
-  display: flex;
-  gap: 20px;
+.article-title {
+  border: 1px solid black;
   padding: 20px;
+  border-radius: 10px;
+
+}
+.carta-txt {
+  
+  gap: 20px;
+  padding: 40px;
   border: 1px solid black;
 }
 .carta-img {
-  height: 300px;
-  width: 600px;
-
+  height: 200px;
+  width: 400px;
 }
+
