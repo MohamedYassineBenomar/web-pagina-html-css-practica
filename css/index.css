@@ -109,3 +109,9 @@ h2 {
   width: 400px;
 }
 
+articles h3 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
