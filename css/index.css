@@ -70,10 +70,6 @@ h2 {
   padding-left: 40px;
 }
 
-.article-generic {
- 
-
-}
 .nav-main a {
   color: inherit; /* Inherit text color from parent */
   text-decoration: none; /* Remove underline */
@@ -115,3 +111,88 @@ articles h3 {
   padding: 20px;
   border-radius: 10px;
 }
+
+.carta-container {
+
+  display: flex;
+  gap: 20px;
+  
+}
+
+.carta-container-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+menu {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  border: 1px solid black;
+  align-items: stretch;
+  padding: 140px 0px 140px 0px;
+ 
+
+}
+.carta-container-right {
+  flex: 10;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+
+menuinfo {
+
+  margin: 0;
+  
+  gap: 10px;
+  height: 100%;
+
+}
+
+h4 {
+  font-size: xx-large;
+  
+  padding-top: 20px;
+  margin-top: 0;
+ 
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.menuinfo-card-container{
+  
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.menuinfo-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menuinfo-card-img-container {
+  height: 100px;
+  object-fit: contain;
+  border: 1px solid black;
+  border-bottom: 0px;
+}
+.menuinfo-card-title {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.menuinfo-card-img{
+  height: 100%;
+  object-fit: contain;
+}
+
