@@ -66,7 +66,6 @@ body {
 }
 
 h2 {
-
   padding-left: 40px;
 }
 
@@ -92,10 +91,8 @@ h2 {
   border: 1px solid black;
   padding: 20px;
   border-radius: 10px;
-
 }
 .carta-txt {
-  
   gap: 20px;
   padding: 40px;
   border: 1px solid black;
@@ -112,7 +109,7 @@ articles h3 {
   border-radius: 10px;
 }
 
-.carta-container {
+.carta-grid-container {
 
   display: flex;
   gap: 20px;
@@ -124,8 +121,8 @@ articles h3 {
   display: flex;
   flex-direction: column;
   gap: 10px;
- 
 }
+
 menu {
   flex: 1;
   text-align: center;
@@ -133,44 +130,37 @@ menu {
   border: 1px solid black;
   align-items: stretch;
   padding: 140px 0px 140px 0px;
- 
-
 }
+
 .carta-container-right {
   flex: 10;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   gap: 10px;
- 
 }
 
 menuinfo {
 
   margin: 0;
-  
   gap: 10px;
   height: 100%;
 
 }
 
 h4 {
-  font-size: xx-large;
-  
+  font-size: xx-large; 
   padding-top: 20px;
   margin-top: 0;
- 
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 .menuinfo-card-container{
-  
   display: flex;
   gap: 10px;
   margin: 0px;
   padding: 0px;
-  
 }
 
 .menuinfo-card {
@@ -196,3 +186,39 @@ h4 {
   object-fit: contain;
 }
 
+.galeria {
+
+}
+
+
+
+.galeria-carta {
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between grid items */
+
+}
+ /* img div */
+.img-galeria{
+  width: 23%;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.galeria-carta-img {
+  width: 100%;
+  display: block;
+
+
+}
+ /* img div */
+ .img-galeria:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5) ;
+}
+
+.img-galeria:nth-child(4){
+  filter: brightness(30%);
+}
+.article-generic galeria
